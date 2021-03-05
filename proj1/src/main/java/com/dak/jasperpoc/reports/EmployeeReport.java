@@ -42,13 +42,13 @@ public class EmployeeReport implements Report {
 		this.employees = new ArrayList<>(employees);
 	}
 
-	public JasperPrint getReport() throws ReportException {
+	public JasperPrint getReport(String[]  listColunas) throws ReportException {
 		final JasperPrint jp;
 		try {
 			Style headerStyle = createHeaderStyle();
 			Style detailTextStyle = createDetailTextStyle();
 			Style detailNumberStyle = createDetailNumberStyle();
-			DynamicReport dynaReport = getReport(headerStyle, detailTextStyle, detailNumberStyle);
+			DynamicReport dynaReport = getReport(headerStyle, detailTextStyle, detailNumberStyle,listColunas);
 			jp = DynamicJasperHelper.generateJasperPrint(dynaReport, new ClassicLayoutManager(),
 					new JRBeanCollectionDataSource(employees));
 		} catch (JRException | ColumnBuilderException | ClassNotFoundException e) {
@@ -108,7 +108,7 @@ public class EmployeeReport implements Report {
 				.build();
 	}
 
-	private DynamicReport getReport(Style headerStyle, Style detailTextStyle, Style detailNumStyle)
+	private DynamicReport getReport(Style headerStyle, Style detailTextStyle, Style detailNumStyle, String[]  listColunas)
 			throws ColumnBuilderException, ClassNotFoundException {
 
 		DynamicReportBuilder report = new DynamicReportBuilder();
@@ -117,7 +117,31 @@ public class EmployeeReport implements Report {
 		AbstractColumn columnName = createColumn("name", String.class, "Name", 30, headerStyle, detailTextStyle);
 		AbstractColumn columnSalary = createColumn("salary", Integer.class, "Salary", 30, headerStyle, detailNumStyle);
 		AbstractColumn columnCommission = createColumn("commission", Float.class, "Commission", 30, headerStyle, detailNumStyle);
-		report.addColumn(columnEmpNo).addColumn(columnName).addColumn(columnSalary).addColumn(columnCommission);
+		
+		// Adiciona colunas ao Report
+		
+		for (int i = 0; i < listColunas.length; i++) {
+			
+			if ( "empNo".equals( listColunas[i] )) {
+				report.addColumn(columnEmpNo);
+				
+			} else if ("name".equals( listColunas[i] ) ) {
+				report.addColumn(columnName);
+				
+			} else if ("salary".equals( listColunas[i] ) ) {
+				report.addColumn(columnSalary);
+				
+			}  else if ("comission".equals( listColunas[i] ) ) {
+				report.addColumn(columnCommission);
+				
+			}
+		}
+ 
+		//		report
+		//			.addColumn(columnEmpNo)
+		//			.addColumn(columnName)
+		//			.addColumn(columnSalary)
+		//			.addColumn(columnCommission);
 
 		StyleBuilder titleStyle = new StyleBuilder(true);
 		titleStyle.setHorizontalAlign(HorizontalAlign.CENTER);

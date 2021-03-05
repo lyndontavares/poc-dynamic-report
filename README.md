@@ -44,4 +44,10 @@ Será criado um projeto Springboot banco em memória e classes de testes para ca
 
 ## Status do POC
 
-> working in progress
+Projeto 1 - Criação de campos personalizados usando API Jasper (Object)
+
+> Working in progress
+
+Projeto 2 - Criação de campos personalizados usando template (XML)
+
+> Not yet

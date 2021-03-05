@@ -9,7 +9,14 @@ git clone https://github.com/davidkey/DynamicJasperExample.git
 mvnw spring-boot:run
 ```
 Once the application has started, you can go to one of the following urls to see the reports:
-* http://localhost:8080/employeeReport.pdf
-* http://localhost:8080/employeeReport.xlsx 
+
+```bash
+http://localhost:8080/employeeReport.pdf?listColunas==name,salary,empNo,commision
+```
+```bash
+http://localhost:8080/employeeReport.xlsx ?listColunas==name,salary,empNo,commision
+```
+
+> ListColunas é a lista de colunas a mostrar. Pode ser nenuma ou combinação de das possíveis colunas.
 
 ![pdf report screenshot](https://raw.githubusercontent.com/davidkey/DynamicJasperExample/master/screenshots/reportPdf.png "pdf report screenshot")
