@@ -15,7 +15,7 @@ Para simplificar, teremos as seguintes possibiliades de campos dinâmicos:
 
 ## Artefatos
 
-O Jasper report oferece uma report design para produção de reports. Opcionalmente podemos implmentar o report em um formato
+O Jasper report oferece uma report design para produção de reports. Opcionalmente podemos implementar o report em um formato
 específco (XML).
 
 Opcionalmente podemos criar um report em classes de objetos Java usando API do Jasper. Neste caso, todo op trabalho, inclusive o layout do report fica definido em classes e métodos em java.
