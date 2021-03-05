@@ -42,12 +42,25 @@ No frontend faz necessário um diálogo de seleção de colunas possíveis para 
 
 Será criado um projeto Springboot banco em memória e classes de testes para cada aspecto do POC.
 
-## Status do POC
+## Status
 
-Projeto 1 - Criação de campos personalizados usando API Jasper (Object)
+### Projeto 1 - Criação de campos personalizados usando API Jasper (Object)
 
-> Working in progress
+Já possível visualizar criação de campos dinamicamente.
 
-Projeto 2 - Criação de campos personalizados usando template (XML)
+### Projeto 2 - Criação de campos personalizados usando template (XML)
 
-> Not yet
+(Not yet)
+
+## Trade-off
+
+Abaixo quadro com prós e contras entre das estratégias: Object/XML:
+
+|              |        Object        |    XML        | Observações |
+| ---          | :------------------- | :------------ | :-------------------------------------------- |
+| Complexidade | Alta                 | Alta          |   Necessário criar LIB ou Framework |
+| Documentação | Escassa              | Escassa       |   Poucas opções no Github/Stackoverflow |
+
+## Status
+
+> Research in progress
