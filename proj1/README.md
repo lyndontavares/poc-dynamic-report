@@ -10,6 +10,8 @@ mvnw spring-boot:run
 ```
 Once the application has started, you can go to one of the following urls to see the reports:
 
+> ListColunas é a lista de colunas a mostrar. Pode ser nehnuma ou a combinação das possíveis colunas.
+
 ```bash
 http://localhost:8080/employeeReport.pdf?listColunas==name,salary,empNo,commision
 ```
@@ -17,6 +19,5 @@ http://localhost:8080/employeeReport.pdf?listColunas==name,salary,empNo,commisio
 http://localhost:8080/employeeReport.xlsx ?listColunas==name,salary,empNo,commision
 ```
 
-> ListColunas é a lista de colunas a mostrar. Pode ser nenuma ou combinação de das possíveis colunas.
 
 ![pdf report screenshot](https://raw.githubusercontent.com/davidkey/DynamicJasperExample/master/screenshots/reportPdf.png "pdf report screenshot")
