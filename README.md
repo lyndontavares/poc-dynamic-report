@@ -5,11 +5,11 @@ A ideia deste POC é testar campos dinâmicos ou personalizados para relatórios
 ## Definições
 
 Campo dinâmico é um conceito muito amplo. A ideia é poder selecionar quais campos serão mostrados no relatório.
-Para simplificar, teremos as seguintes possibiliadews de campos dinâmicos:
+Para simplificar, teremos as seguintes possibiliades de campos dinâmicos:
 
 1. Coluna: Coluna de uma tabela do banco de dados.
 2. Json: Definação de campo, persistida em campo JSON de uma tabela do banco de dados.
-3. Calculado: Definição de campo, com processinamento dinâmico, não persistido em nanco de dados.
+3. Calculado: Definição de campo, com processamento dinâmico, não persistido em nanco de dados.
 
 > Este POC não atende a situações onde groups do report possam ser selecioandos ou não antes de preview ou impressão
 
@@ -40,7 +40,7 @@ No frontend faz necessário um diálogo de seleção de colunas possíveis para 
 
 ## Backend
 
-Será criado um projeto Springboot banco em memória. E várias classes de testes para cada aspecto do POC.
+Será criado um projeto Springboot banco em memória e classes de testes para cada aspecto do POC.
 
 ## Status do POC
 
