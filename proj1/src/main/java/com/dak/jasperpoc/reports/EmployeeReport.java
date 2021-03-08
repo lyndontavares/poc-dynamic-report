@@ -118,7 +118,7 @@ public class EmployeeReport implements Report {
 		AbstractColumn columnSalary = createColumn("salary", Integer.class, "Salary", 30, headerStyle, detailNumStyle);
 		AbstractColumn columnCommission = createColumn("commission", Float.class, "Commission", 30, headerStyle, detailNumStyle);
 		
-		// Adiciona colunas ao Report
+		// A D D   C O L U M N
 		
 		for (int i = 0; i < listColunas.length; i++) {
 			
@@ -136,12 +136,6 @@ public class EmployeeReport implements Report {
 				
 			}
 		}
- 
-		//		report
-		//			.addColumn(columnEmpNo)
-		//			.addColumn(columnName)
-		//			.addColumn(columnSalary)
-		//			.addColumn(columnCommission);
 
 		StyleBuilder titleStyle = new StyleBuilder(true);
 		titleStyle.setHorizontalAlign(HorizontalAlign.CENTER);
