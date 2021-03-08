@@ -13,10 +13,10 @@ Once the application has started, you can go to one of the following urls to see
 > ListColunas é a lista de colunas a mostrar. Pode ser nehnuma ou a combinação das possíveis colunas.
 
 ```bash
-http://localhost:8080/employeeReport.pdf?listColunas==name,salary,empNo,commision
+http://localhost:8080/employeeReport.pdf?listColunas=name,salary,empNo,commision
 ```
 ```bash
-http://localhost:8080/employeeReport.xlsx ?listColunas==name,salary,empNo,commision
+http://localhost:8080/employeeReport.xlsx ?listColunas=name,salary,empNo,commision
 ```
 
 
