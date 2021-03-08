@@ -59,7 +59,7 @@ Abaixo quadro com prós e contras entre das estratégias: Object/XML:
 |              |        Object        |    XML        | Observações |
 | ---          | :------------------- | :------------ | :-------------------------------------------- |
 | Complexidade | Alta                 | Alta          |   Necessário criar LIB ou Framework |
-| Documentação | Escassa              | Escassa       |   Poucas opções no Github/Stackoverflow |
+| Documentação | Média                | Escassa       |   Poucas opções no Github/Stackoverflow |
 
 ## Status
 
