@@ -151,4 +151,4 @@ public class ReportColumn {
 - Como implementar colunas com totais ?
 - Como implementar visibilidade com expressões ?
 
-> Essas questoes se aplicam aos campos e seus cabeçalhos e rodapés em todas os grupos do relatório
+> Essas questoes se aplicam aos campos com seus respectivos cabeçalhos e rodapés em todas os grupos (Group bands) do report
