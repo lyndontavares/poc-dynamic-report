@@ -161,4 +161,7 @@ public enum ColumnAlign {
 
 ```
 
-> Working in progress
+## Responsabilidades
+
+* O Backend faz a preparação dos registros ,formatações e visibilidade de columnas e então faz request para o Report Server.
+* O Report Server recebe requisção com os dados e formatação. Então cria, compila e retorna o report em formato PDF
