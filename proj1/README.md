@@ -22,6 +22,15 @@ http://localhost:8080/employeeReport.xlsx?listColunas=name,salary,empNo,commisio
 
 ![pdf report screenshot](https://raw.githubusercontent.com/davidkey/DynamicJasperExample/master/screenshots/reportPdf.png "pdf report screenshot")
 
+
+## Questões para os campos personalidados
+
+- Como implementar formatação dinamicamente ?
+- Como implementar colunas com totais ?
+- Como implementar visibilidade com expressões ?
+
+> Essas questoes se aplicam aos campos com seus respectivos cabeçalhos e rodapés em todas os grupos (Group bands) do report
+
 ## Próximo passo
 
 Os parâmetros para o report serão passado pelos DTOs :
@@ -144,11 +153,3 @@ public class ReportColumn {
 
 }
 ```
-
-## Questões para os campos personalidados
-
-- Como implementar formatação dinamicamente ?
-- Como implementar colunas com totais ?
-- Como implementar visibilidade com expressões ?
-
-> Essas questoes se aplicam aos campos com seus respectivos cabeçalhos e rodapés em todas os grupos (Group bands) do report
