@@ -8,6 +8,7 @@ public class ReportParam {
 	private String usuario;
 	private String logo;
 	private List<String> filtro;
+	private List<ReportColumn> columns;
 	
 	public String getEmpresa() {
 		return empresa;
@@ -32,6 +33,12 @@ public class ReportParam {
 	}
 	public void setFiltro(List<String> filtro) {
 		this.filtro = filtro;
+	}
+	public List<ReportColumn> getColumns() {
+		return columns;
+	}
+	public void setColumns(List<ReportColumn> columns) {
+		this.columns = columns;
 	}
 
 		
