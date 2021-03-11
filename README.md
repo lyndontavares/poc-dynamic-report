@@ -48,9 +48,13 @@ Será criado um projeto Springboot banco em memória e classes de testes para ca
 
 Já possível visualizar criação de campos dinamicamente.
 
+[projeto 1](https://github.com/lyndontavares/poc-dynamic-report/tree/main/proj1)
+
 ### Projeto 2 - Criação de campos personalizados usando template (XML)
 
 (Not yet)
+
+[projeto 2](https://github.com/lyndontavares/poc-dynamic-report/tree/main/proj2)
 
 ## Trade-off
 
