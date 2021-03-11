@@ -153,3 +153,12 @@ public class ReportColumn {
 
 }
 ```
+
+```java
+public enum ColumnAlign {
+ LEFT,CENTER,RIGTH;
+}
+
+```
+
+> Working in progress
