@@ -150,3 +150,5 @@ public class ReportColumn {
 - Como implementar formatação dinamicamente ?
 - Como implementar colunas com totais ?
 - Como implementar visibilidade com expressões ?
+
+> Essas questoes se aplicam aos campos e seus cabeçalhos e rodapés em todas os grupos do relatório
