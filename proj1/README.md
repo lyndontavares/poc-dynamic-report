@@ -145,8 +145,8 @@ public class ReportColumn {
 }
 ```
 
-## Questões para campos personalidados
+## Questões para os campos personalidados
 
 - Como implementar formatação dinamicamente ?
-- Como implementar columnas com totais ?
+- Como implementar colunas com totais ?
 - Como implementar visibilidade com expressões ?
