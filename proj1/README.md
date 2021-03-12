@@ -33,7 +33,13 @@ http://localhost:8080/employeeReport.xlsx?listColunas=name,salary,empNo,commisio
 
 ## Próximos passos
 
-Os parâmetros para o report serão passado pelos DTOs :
+Será criado estrutura de DTO. Dados do report, dados de configuração e outros serão passados por request. utilizando estrutura abaixo. Versão inciail:
+
+![Class Diagram](./screenshots/class1.PNG)
+
+> Diagrama de classes (versão 1.0)
+
+Detalhes das classes:
 
 ```java
 public class ResumenWrapper {

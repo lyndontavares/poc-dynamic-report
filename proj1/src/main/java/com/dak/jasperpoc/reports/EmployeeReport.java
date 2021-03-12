@@ -151,6 +151,12 @@ public class EmployeeReport implements Report {
 		report.setTitleStyle(titleStyle.build());
 		report.setSubtitle("Commission received by Employee");
 		report.setSubtitleStyle(subTitleStyle.build());
+		
+		byte p=1;
+		byte a=1;
+				
+		//report.addAutoText("teste",1, 1);
+		
 		report.setUseFullPageWidth(true);
 		return report.build();
 	}
