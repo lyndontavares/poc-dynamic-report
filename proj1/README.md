@@ -31,7 +31,7 @@ http://localhost:8080/employeeReport.xlsx?listColunas=name,salary,empNo,commisio
 
 > Essas questoes se aplicam aos campos com seus respectivos cabeçalhos e rodapés em todas os grupos (Group bands) do report
 
-## Próximo passo
+## Próximos passos
 
 Os parâmetros para o report serão passado pelos DTOs :
 
