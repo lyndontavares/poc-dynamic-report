@@ -39,8 +39,6 @@ Será criado estrutura de DTO. Dados do report, dados de configuração e outros
 
 > Diagrama de classes (versão 1.0)
 
-Detalhes das classes:
-
 ```java
 public class ResumenWrapper {
 
